@@ -1,54 +1,53 @@
 import React from "react";
-import e_kart from "../assets/portfolio/e_kart.png";
 import tictactoe from "../assets/portfolio/tictactoe.png";
 import quiz from "../assets/portfolio/quiz.png";
 import budget from "../assets/portfolio/budget.png";
 import joke from "../assets/portfolio/joke.png";
 import custom_music from "../assets/portfolio/custom_music.png";
+import gym from "../assets/portfolio/gym2.png";
 
 
 const Portfolio = () => {
 
 
     const portfolios = [
-        {
-            id: 1,
-            src: e_kart,
-            href: 'https://github.com/bk408/E-kart-React-app',
-            
-        },
-        {
-            id: 2,
-            src: budget,
-            href: 'https://github.com/bk408/Budget-app',
-            nhref: 'https://amzbudget-app.netlify.app/',
-        },
-        {
-            id: 3,
-            src: custom_music,
-            href: 'https://github.com/bk408/custom-music-player',
-            nhref: 'https://custommusic-player.netlify.app/',
-        },
-        {
-            id: 4,
-            src: joke,
-            href: 'https://github.com/bk408/Random-joke-generator',
-            nhref: 'https://randomjoke-generator.netlify.app/',
-        },
-        {
-            id: 5,
-            src: quiz,
-            href: 'https://github.com/bk408/quiz-app',
-            nhref: 'https://quizapphcj.netlify.app/',
-        },
-        {
-            id: 6,
-            src: tictactoe,
-            href: 'https://github.com/bk408/tic-tac-toe-game',
-            nhref: 'https://amztic-tac-toe-game.netlify.app/',
-        },
-        
-    ]
+      {
+        id: 1,
+        src: gym,
+        href: "https://github.com/bk408/fitness-exercise-app",
+        nhref: "https://gymheroics.vercel.app/",
+      },
+      {
+        id: 2,
+        src: budget,
+        href: "https://github.com/bk408/Budget-app",
+        nhref: "https://amzbudget-app.netlify.app/",
+      },
+      {
+        id: 3,
+        src: custom_music,
+        href: "https://github.com/bk408/custom-music-player",
+        nhref: "https://custommusic-player.netlify.app/",
+      },
+      {
+        id: 4,
+        src: joke,
+        href: "https://github.com/bk408/Random-joke-generator",
+        nhref: "https://randomjoke-generator.netlify.app/",
+      },
+      {
+        id: 5,
+        src: quiz,
+        href: "https://github.com/bk408/quiz-app",
+        nhref: "https://quizapphcj.netlify.app/",
+      },
+      {
+        id: 6,
+        src: tictactoe,
+        href: "https://github.com/bk408/tic-tac-toe-game",
+        nhref: "https://amztic-tac-toe-game.netlify.app/",
+      },
+    ];
   return (
     <div name="portfolio" className=" bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen ">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
