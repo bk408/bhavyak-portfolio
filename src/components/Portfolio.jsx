@@ -1,7 +1,7 @@
 import React from "react";
 import tictactoe from "../assets/portfolio/tictactoe.png";
 import quiz from "../assets/portfolio/quiz.png";
-import budget from "../assets/portfolio/budget.png";
+import loom from "../assets/portfolio/loom.jpg";
 import joke from "../assets/portfolio/joke.png";
 import custom_music from "../assets/portfolio/custom_music.png";
 import gym from "../assets/portfolio/gym2.png";
@@ -19,9 +19,9 @@ const Portfolio = () => {
       },
       {
         id: 2,
-        src: budget,
-        href: "https://github.com/bk408/Budget-app",
-        nhref: "https://amzbudget-app.netlify.app/",
+        src: loom,
+        href: "https://github.com/bk408/LensLoom",
+        nhref: "https://lens-loom.vercel.app/",
       },
       {
         id: 3,
