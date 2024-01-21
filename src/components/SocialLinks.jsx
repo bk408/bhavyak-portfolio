@@ -44,7 +44,7 @@ const SocialLinks = () => {
                 Resume <HiDocument size={30} />
                 </>
             ),
-            href: '/Bhavya_Khatri_(()).pdf',
+            href: '/Bhavya.Khatri.pdf',
             style: 'rounded-br-md',
             download: true,
         },
