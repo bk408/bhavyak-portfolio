@@ -6,6 +6,7 @@ import joke from "../assets/portfolio/joke.png";
 import treeVisualizer from "../assets/portfolio/tree-visulizier.png";
 import gym from "../assets/portfolio/gym2.png";
 
+
 const Portfolio = () => {
   const portfolios = [
     {
